@@ -19,19 +19,19 @@ export const NAVLINKS= [
 ]
 
 export const PROFILE = {
-  firstname : 'Muhamad',
-  lastname: 'Raul Iqbal',
+  firstname : 'Zam',
+  lastname: 'Zam',
   get fullname() {
     return `${this.firstname} ${this.lastname}`
   },
-  role : 'Front-End Developer & UI Designer',
+  role : 'A Student Interested in New Things',
   avatar: '/images/profile.jpg'
 }
 
 export const HERO = {
   badge: 'Available for freelance',
   headline: `Hey, I'm ${PROFILE.lastname}. I'm a ${PROFILE.role}`,
-  subline : "I am a developer and designer who has a passion for building responsive, cool looking, and easy to visit website applications."
+  subline : "I am Enthusiastic to Learn and Study New Things Anywhere and Anytime."
 }
 
 export const SERVICE = {
