@@ -24,14 +24,14 @@ export const PROFILE = {
   get fullname() {
     return `${this.firstname} ${this.lastname}`
   },
-  role : 'A Student Interested in New Things',
+  role : 'Student Interested in New Things',
   avatar: '/images/profile.jpg'
 }
 
 export const HERO = {
   badge: 'Available for freelance',
-  headline: `Hey, I'm ${PROFILE.lastname}. I'm a ${PROFILE.role}`,
-  subline : "I am Enthusiastic to Learn and Study New Things Anywhere and Anytime."
+  headline: `Hallo, I'm ${PROFILE.lastname}. I'm a ${PROFILE.role}`,
+  subline : "I'm Enthusiastic to Learn and Study New Things Anywhere and Anytime."
 }
 
 export const SERVICE = {
