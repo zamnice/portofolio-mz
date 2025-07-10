@@ -19,10 +19,10 @@
     @apply text-sm px-6 py-3 rounded-lg bg-gradient-to-b from-indigo-400  to-primary text-white;
   }
   .btn-dark {
-    @apply text-sm px-6 py-3 rounded-lg bg-gradient-to-b from-black/90  to-[#1C1C22] text-white border border-white/10 ;
+    @apply text-sm px-6 py-3 rounded-lg bg-gradient-to-b from-black/90  to-[#FF6B00] text-white border border-white/10 ;
   }
   .card {
-    @apply flex flex-col p-3 border bg-[#0b061a]/90  border-white/10 rounded-2xl;
+    @apply flex flex-col p-3 border bg-[#F4C425]/90  border-white/10 rounded-2xl;
   }
 }
 
